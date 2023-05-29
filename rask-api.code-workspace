@@ -73,13 +73,20 @@
     "eslint.codeActionsOnSave.mode": "problems",
     "eslint.experimental.useFlatConfig": true,
     "eslint.packageManager": "pnpm",
-    "eslint.validate": ["json", "javascript", "typescript", "html", "css"],
+    "eslint.validate": [
+      "json",
+      "javascript",
+      "typescript",
+      "html",
+      "css"
+    ],
     "eslint.debug": true,
 
     "npm.packageManager": "pnpm",
 
     "files.exclude": {
       "api": true,
+      "**/dev.db-journal": true,
       "**/.git": true,
       "**/dist": true,
       "**/node_modules": true
