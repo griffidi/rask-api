@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    // ensure that nobody can accidentally use this config for a build
+    "noEmit": true
+  },
+  "include": [
+    "api/prisma/**/*.ts",
+    "api/src/**/*.ts",
+    "apps/*/src/**/*.ts",
+    "packages/*/src/**/*.ts"
+  ],
+  "exclude": [
+    "**/.cache/**/*",
+    "**/.next/**/*",
+    "**/build/**/*",
+    "**/dist/**/*",
+    "**/node_modules/**/*"
+  ]
+}
