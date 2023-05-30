@@ -15,14 +15,12 @@
         "order": 1
       }
     }
-  ],
-  "compounds": [
-    {
-      "name": "Launch demo",
-      "configurations": [
-        "Debug api"
-      ],
-      "stopAll": true
-    }
   ]
+  // "compounds": [
+  //   {
+  //     "name": "Launch demo",
+  //     "configurations": ["Debug api"],
+  //     "stopAll": true
+  //   }
+  // ]
 }
